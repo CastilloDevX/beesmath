@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bees Math</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/png" href="img/BeeFavicon.png">
+</head>
+<body>
+    <audio src="audio/background_sfx.mp3" autoplay="autoplay" loop="loop"></audio>
+    <img id="background" src="img/LandscapeBeesMath.svg" alt="">
+
+    <main>
+        <div id="content" class="show-main">
+            <img id="bees-math-logo" src="img/BeesMathLogo.svg" alt="Bees Math Logo">
+            <img id="play-btn" src="img/Play.svg" alt="Play Button">
+        </div>
+
+        <div id="game" class="hide-game">
+            <div id="instruction">
+                <p>Elige la respuesta correcta</p>
+            </div>
+            
+            <div id="operation">
+                <div id="operation-field-1" class="operator-field"></div>
+
+                <div id="sing-operation" class="math-operation"><p>+</p></div>
+                
+                <div id="operation-field-2" class="operator-field"></div>
+                
+                <div id="equals-operation" class="math-operation"><p>=</p></div>
+            </div>
+
+            <div id="options">
+                <div id="option-1-btn" class="void-option">
+                    <p id="option-1-text">1</p>
+                </div>
+                <div id="option-2-btn" class="void-option">
+                    <p id="option-2-text">2</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
